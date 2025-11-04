@@ -1,7 +1,8 @@
 terraform {
   required_providers {
     docker = {
-      source = "kreuzwerker/docker"
+      source  = "registry.opentofu.org/kreuzwerker/docker"
+      version = ">= 3.8.0"
     }
   }
 
